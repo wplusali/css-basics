@@ -35,7 +35,17 @@ header {
   border: 15px solid black;
 }
 
+#relative-box-2 {
+  position: relative;
+  left: 200px;
+}
+
 .absolute-container {
   position: relative;
 }
 
+#absolute-box-2 {
+  position: absolute;
+  left: 715px;
+  bottom: 400px;
+}
