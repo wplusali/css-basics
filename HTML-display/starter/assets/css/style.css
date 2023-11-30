@@ -7,18 +7,23 @@ h2 {
   text-align: left;
 }
 
-ul {
-  text-align: right;
-  color: #ffffff;
+nav ul {
+  list-style-type: none; /* Removes the default list styling */
+  font-size: 40px; /* Set font size */
+  text-align: right; /* Aligns <nav> to the right */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
 }
 
-li {
-  list-style-type: none;
-  font-size: 40px;
+nav ul li {
+  display: inline; /* Makes list items inline */
+  margin-right: 0; /* Adds spacing between items */
+  color: #ffffff; /* Font color */
 }
 
 img {
-  margin: 0 auto;
+  display: block;
+  margin: 10px auto;
 }
 
 #item-1 {
