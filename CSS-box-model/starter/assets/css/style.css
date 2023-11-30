@@ -3,10 +3,14 @@ section {
   height: 600px;
   text-align: center;
   border: 15px solid black;
+  margin: auto;
 }
 
 img {
   width: 200px;
   height: 200px;
   background-color: lightblue;
+  padding: 20px;
+  border: 10px solid navy;
+  margin: 20px 15px 10px 15px;
 }
